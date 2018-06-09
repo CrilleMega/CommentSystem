@@ -1,0 +1,64 @@
+iframe
+{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    border: none;
+}
+
+.comment, button, textarea
+{
+    width: 950px;
+}
+
+.comment 
+    {
+        min-height: 100px;
+        height: auto;
+        margin: 20px;
+        padding: 20px;
+        font-size: 20px;
+        word-break: break-all;
+        background-color: #cccccc;
+    }
+.comment b
+{
+    color: green;
+}
+.comment img
+    {
+        height: auto;
+        width: auto;
+        max-width: 800px;
+    }
+.idnum
+    {
+        color: grey;
+        font-size: 8px;
+        float: right;
+    }
+    
+textarea
+    {
+        height: 100px;
+        margin-left: 20px;
+    }
+input
+{
+    height: 20px;
+    margin-left: 20px;
+}
+button
+    {
+        height: 60px;
+        font-size: 20px;
+        margin-left: 20px;
+        text-align: center;
+    }
+main
+{    
+    width: 900px;
+    height: auto;
+    margin: 10px auto;
+}
+   
